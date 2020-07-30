@@ -13,7 +13,7 @@ class TodoRow extends React.Component {
       console.log(`${todo} 컴포넌트 렌더링`);
       return (
         <Container>
-          <Text onClick={() => handleClickRemove(index)}>&nbsp;&nbsp;{index}.&nbsp;&nbsp;&nbsp;{todo}</Text>
+          <Text onClick={() => handleClickRemove(index)}>&nbsp;&nbsp;{index+1}.&nbsp;&nbsp;&nbsp;{todo}</Text>
         </Container>
       );
     }
